@@ -1,0 +1,44 @@
+body{
+        display: flex;
+    flex-direction: column;
+    background-color:#F5E7C6 ;
+}
+
+
+p {
+    color:#222222 ;
+}
+
+.jumlahpeserta {
+       text-align: center;
+}
+.container {
+   border: 10px #222222;
+   margin:auto;
+   text-align: justify;
+   padding: 40px;
+   background-color: #FAF3E1 ;
+   width: 500px;
+}
+
+.teksatasutama {
+    font-weight: 1000;
+    color: #FA8112;
+    text-align: center;
+    background-color: #F5E7C6;
+}
+
+.teksbawahuatama {
+    font-weight:bold
+}
+
+.formisi {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.tombolkirim {
+    background-color: #FA8112;
+}

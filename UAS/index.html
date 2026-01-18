@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Event Kampus</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body {
+    font-family:Helvetica, sans-serif;
+    box-sizing: border-box;
+    }
+    </style>
+</head>
+<body>
+<!-- landing page -->
+    <div class="container">
+            <h1 class="teksatasutama">EVENT SEMINAR TEKNOLOGI EL-RAHMA</h1><br>
+        <p>Seminar Teknologi El-Rahma merupakan kegiatan edukatif yang diselenggarakan sebagai upaya meningkatkan wawasan dan pemahaman peserta terhadap perkembangan teknologi di era digital. Kegiatan ini bertujuan untuk membekali peserta dengan pengetahuan, keterampilan, serta sudut pandang yang positif dan bijak dalam memanfaatkan teknologi dalam kehidupan sehari-hari.<br><br>Acara ini menghadirkan pemateri yang kompeten di bidangnya dan membahas berbagai topik seputar inovasi teknologi, transformasi digital, serta dampak teknologi terhadap pendidikan, bisnis, dan kehidupan sosial. Seminar ini dikemas secara interaktif melalui sesi pemaparan materi, diskusi, dan tanya jawab.<br><br>Melalui Seminar Teknologi El-Rahma, diharapkan peserta mampu mengikuti perkembangan teknologi secara cerdas, produktif, dan bertanggung jawab, serta menjadikan teknologi sebagai sarana untuk kemajuan diri dan masyarakat.</p><br>
+        <div class="teksbawahuatama">
+            <p>Waktu: 15:00 WIB - Selesai</p>
+            <p>Lokasi: El-Rahma</p>
+        </div>
+    </div>
+<br><br>
+
+<!-- form -->
+<form class="container" class="formisi" onsubmit="return formisi()">
+
+     <h1 class="teksatasutama">Form Pendaftaran</h1>
+    <div class="formisi">
+    <label>Nama Lengkap:</label>
+    <input type="text" id="nama" placeholder="Nama Lengkap"><br>
+    <label>Email:</label>
+    <input type="text" id="email" placeholder="Email"><br>
+    <label>Nomor HP</label>
+    <input type="text" id="nomorhp" placeholder="Nomor HP"><br>
+
+    <label>Kategori</label>
+    <select id="kategori">
+    <option value="">Pilih</option>
+    <option value="Mahasiswa">Mahasiswa</option>
+    <option value="Umum">Umum</option>
+    </select>
+
+    <button type="submit" class="tombolkirim"> Kirim </button>
+    </div>
+
+</form>
+
+<!-- dafatar peserta -->
+<div class="container">
+    <h1 class="teksatasutama">Daftar Peserta</h1>
+    <div class="jumlahpeserta">
+    <p>Jumlah Peserta yang Sudah Mendaftar:</p><p id="hitung">0</p> <br>
+
+    <ol id="daftarpeserta"></ol>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
