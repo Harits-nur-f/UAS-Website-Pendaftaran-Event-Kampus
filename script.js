@@ -43,9 +43,15 @@ let maxpeserta = 50;
         return false;
     }
     // buat hitung jumlah psesrta yang sudah daftar
+
+        jumlahpeserta = jumlahpeserta + 1; 
+        document.getElementById("hitung").innerText = jumlahpeserta
+        
+    // List dari siapa aja yang daftar
         document.getElementById("daftarpeserta").innerHTML =
         document.getElementById("daftarpeserta").innerHTML +
         "<li>" + nama + " - " + kategori + "</li>";
 
     return false;
+
 }
